@@ -107,7 +107,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <p>
                 I am a PhD student studying Computer Science in the <a href="http://vlsiarch.eecs.harvard.edu"> Harvard Architecture, Circuits and Compilers group </a>  at Harvard University working with Professor David Brooks and Professor Gu-Yeon Wei. <br /> <br/>
                     My research is focused on hardware specialization for deep learning by co-designing solutions across the computing stack.
-                    Recent examples of this include designing hardware accelerators for sparse RNNs, building and integrating DNN accelerator in a 16nm mobile SoC, lossy compression techniques for DNNs, and quanitfying the fault tolerance of DNNs.
+                    This includes designing hardware accelerators for sparse RNNs, building and integrating DNN accelerator in a 16nm mobile SoC, lossy compression techniques for DNNs, and quanitfying the fault tolerance of DNNs. <br />  <br />
+
+                    More recently, my research focuses on optimizing the at-scale deployment of deep learning based <a href="https://www.sigarch.org/deep-learning-its-not-all-about-recognizing-cats-and-dogs/"> personalized recommendation</a> . This work includes in-depth <a href="https://arxiv.org/abs/1906.03109"> analysis and characterization</a> of the architectural implications of recommendation models across production-scale datacenters. Building on this characterization we optimize at-scale recommendation model inference.
                 </p>
 
                 <h4>Cornell University <span>September 2012 - May 2016</span></h4>
@@ -125,32 +127,50 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
         </div>
         <div class="section">
-            <h3 class="grey">Publications</h3>
+            <h3 class="red">Select publications</h3>
+            <div class ="section_details">
+              <p style="margin-top:15px">
+                  <strong> Architectural Implications of Facebook’s DNN-based Personalized Recommendation </strong> <br />
+                  <strong>Udit Gupta</strong>,  Xiaodong Wang, Maxim Naumov, Carole-Jean Wu, Brandon Reagen, David Brooks, Bradford Cottel, Kim Hazelwood, Bill Jia, Hsien-Hsin S. Lee, Andrey Malevich, Dheevatsa Mudigere, Mikhail Smelyanskiy, Liang Xiong, Xuan Zhang <br />
+                  To appear in <i> IEEE International Symposium on High-Performance Computer Architecture (HPCA 2019) </i> <br />
+                  <a href="https://arxiv.org/abs/1906.03109">[ArXiv]</a>  <br />
+
+              </p>
+
+              <p style="margin-top:30px">
+                  <strong> Deep Learning Recommendation Model for Personalization and Recommendation Systems </strong> <br />
+                  Maxim Naumov, Dheevatsa Mudigere, Hao-Jun Michael Shi, Jianyu Huang, Narayanan Sundaraman, Jongsoo Park, Xiaodong Wang, <strong> Udit Gupta </strong>, Carole-Jean Wu, Alisson G Azzolini, Dmytro Dzhulgakov, Andrey Mallevich, Ilia Cherniavskii, Yinghai Lu, Raghuraman Krishnamoorthi, Ansha Yu, Volodymyr Kondratenko, Stephanie Pereira, Xianjie Chen, Wenlin Chen, Vijay Rao, Bill Jia, Liang Xiong, Misha Smelyanskiy <br />
+                  <a href="https://arxiv.org/pdf/1906.00091">[ArXiv]</a>  <br />
+
+              </p>
+
+              <p style="margin-top:30px">
+                  <strong> MASR: A Modular Accelerator for Sparse RNNs </strong> <br />
+                  <strong>Udit Gupta</strong>,  Brandon Reagen, Lillian Pentecost, Marco Donato, Thierry Tambe, Alexander Rush, Gu-Yeon Wei, David Brooks <br />
+                  <i> Parallel Architectures and Compilation Techniques (PACT 2019)</i> <br />
+                  <strong> Best Paper Nominee </strong> <br />
+                  <a href="files/masr_pact.pdf"> <img src="images/pdf.png" alt="" style="width:20px">[PDF]</a>,
+                  <a href="files/masr_pact_slides.pdf"> <img src="images/pdf.png" alt="" style="width:20px">[Slides]</a>,
+                  <a href="https://arxiv.org/abs/1908.08976">[ArXiv]</a>
+                  <br />
+              </p>
+            </div>
+        </div>
+        <div class="section">
+            <h3 class="grey">Other publications</h3>
             <div class="section_details">
                 <h4> <u>Conference Publications</u> </h4>
+
                 <p style="margin-top:15px">
-                    <strong> Architectural Implications of Facebook’s DNN-based Personalized Recommendation </strong> <br />
-                    <strong>Udit Gupta</strong>,  Xiaodong Wang, Maxim Naumov, Carole-Jean Wu, Brandon Reagen, David Brooks, Bradford Cottel, Kim Hazelwood, Bill Jia, Hsien-Hsin S. Lee, Andrey Malevich, Dheevatsa Mudigere, Mikhail Smelyanskiy, Liang Xiong, Xuan Zhang <br />
-                    <i> Under review </i> <br />
-                    <a href="https://arxiv.org/abs/1906.03109">[ArXiv]</a>  <br />
-
-                </p>
-
-                <p style="margin-top:30px">
-                    <strong> MASR: A Modular Accelerator for Sparse RNNs </strong> <br />
-                    <strong>Udit Gupta</strong>,  Brandon Reagen, Lillian Pentecost, Marco Donato, Thierry Tambe, Alexander Rush, Gu-Yeon Wei, David Brooks <br />
-                    <i> Parallel Architectures and Compilation Techniques (PACT 2019)</i> <br />
-                    <strong> Best Paper Nominee </strong> <br />
-                    <a href="files/masr_pact.pdf"> <img src="images/pdf.png" alt="" style="width:20px">[PDF]</a>,
-                    <a href="files/masr_pact_slides.pdf"> <img src="images/pdf.png" alt="" style="width:20px">[Slides]</a>,
-                    <a href="https://arxiv.org/abs/1908.08976">[ArXiv]</a>
-                    <br />
+                    <strong> MLPerf training benchmark </strong> <br />
+                    Peter Mattson, et. al. <br />
+                    <a href="https://arxiv.org/pdf/1910.01500">[ArXiv]</a>
                 </p>
 
                 <p style="margin-top:30px">
                     <strong> MaxNVM: Maximizing DNN Storage Density and Inference Efficiency with Sparse Encoding and Error Mitigation </strong> <br />
                     Lillian Pentecost, Marco Donato, Brandon Reagen, <strong>Udit Gupta</strong>,  Siming Ma, Gu-Yeon Wei, and David Brooks <br />
-                    To appear in <i> IEEE/ACM International Symposium on Microarchitecture (MICRO 2019)</i> <br />
+                    <i> IEEE/ACM International Symposium on Microarchitecture (MICRO 2019)</i> <br />
 
                 </p>
 
@@ -218,19 +238,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 <h4> <u>Tehcnical Articles</u> </h4>
                 <p style="margin-top:15px">
-                    <strong> Designing AI-Enabled Technology for Society </strong> <br />
-                    <strong>Udit Gupta</strong>, Lillian Pentecost <br />
-                    <i> Harvard SITN, October 2018 </i> <br />
-                    <a href="http://sitn.hms.harvard.edu/seminars/2018/october-24-designing-ai-enabled-technology-society/">[LINK]</a>  <br />
+                    <strong> Deep Learning: It’s Not All About Recognizing Cats and Dogs </strong> <br />
+                    Carole-Jean Wu, David Brooks, <strong> Udit Gupta </strong>, Hsien-Hsin Lee, and Kim Hazelwood <br />
+                    <i> ACM SIGARCH, Computer Architecture Today </i> <br />
+                    <a href="https://www.sigarch.org/deep-learning-its-not-all-about-recognizing-cats-and-dogs/">[LINK]</a>  <br />
 
 
                 </p>
 
                 <p style="margin-top:30px">
-                    <strong> Medi-Bot: Your Personal Medicine Botler </strong> <br />
-                    <strong>Udit Gupta</strong>, Ava Tan, Christine Hwang<br />
-                    <i> Circuit Cellar, December  2016</i> <br />
-
+                    <strong> Designing AI-Enabled Technology for Society </strong> <br />
+                    <strong>Udit Gupta</strong>, Lillian Pentecost <br />
+                    <i> Harvard SITN, October 2018 </i> <br />
+                    <a href="http://sitn.hms.harvard.edu/seminars/2018/october-24-designing-ai-enabled-technology-society/">[LINK]</a>  <br />
                 </p>
 
                 <p style="margin-top:30px">
@@ -248,6 +268,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="section_details">
                 <h4><a href="https://www.facebook.com">Facebook, Inc. </a> <span>September 2018 - Present </span></h4>
                 <h6>AI Infrastructure Research Intern </h6>
+                <p>
+                    Analyzing, characterizing, and optimizing the at-scale deep-learning based personalized recommendation systems.
+                </p>
 
                 <h4><a href="http://www.algo-logic.com">Algo Logic Systems Inc. </a> <span>May 2015 - August 2015</span></h4>
                 <h6>Hardware Design and Verification Engineer</h6>
