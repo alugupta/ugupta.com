@@ -1,3 +1,3 @@
 #!/bin/bash
 
-scp  ~/git/website/* aws:/var/www/ugupta.com/
+scp  ~/git/website/* centos@aws:/var/www/ugupta.com/
