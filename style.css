@@ -21,7 +21,7 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
-}	
+}
 body {
   padding-top:0px;
 }
@@ -63,23 +63,23 @@ a:visited{
 	font-weight:600;
 	font-size:1.1em;
 	color:#fff;
-}  
+}
 .details h3 a:hover{
 	font-weight:600;
 	font-size:1.1em;
 	color:#fff;
-}  
+}
 .details h3 a:visited{
 	font-weight:600;
 	font-size:1.1em;
 	color:#fff;
-}  
+}
 
 .details h3{
 	font-weight:600;
 	font-size:1.1em;
 	color:#fff;
-}  
+}
 
 .details p{
 	color:#d9d4d4;
@@ -100,7 +100,7 @@ address span{
 	line-height:1.5em;
 }
 /*----*/
-.main{  
+.main{
   padding:2em 0;
 }
 .content{
@@ -108,7 +108,7 @@ address span{
     left:50%;
 }
 .glyphicon {
-  top:1px;  
+  top:1px;
 }
 .glyphicon-file:before,.glyphicon-print:before,.glyphicon-envelope:before,.glyphicon-picture:before{
   margin-right: 9px;
@@ -209,7 +209,7 @@ address span{
 .education_details ul {
 	padding-left:0em;
     list-style-type:none;
-    line-height:1.05; 
+    line-height:1.05;
     padding-bottom:1em;
 }
 
@@ -323,7 +323,7 @@ h3.purple{
 }
 .sidebar img {
   padding: 0.5em;
-  width: 89%;
+  width: 95%;
 }
 .details_header {
   padding: 0em 1em 0 1em;
