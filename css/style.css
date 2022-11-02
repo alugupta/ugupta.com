@@ -10,9 +10,9 @@ h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0; padding:0;}
 p {margin: 0;}
 html, body{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Verdana', serif;
 	font-size: 100%;
-    background:#f0eee4;
+    background:#F7F5F1;
 
 }
 body a{
@@ -21,7 +21,7 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
-}	
+}
 body {
   padding-top:0px;
 }
@@ -48,11 +48,11 @@ a:visited{
 	font-weight:700;
 	margin-bottom:1em;
 	COLOR:#fff;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Verdana', serif;
 }
 .sidebar img{
 	border:1px solid #fff;
-	padding:1em;
+	padding:0.5em;
 	width:100%;
     max-width:250px;
 }
@@ -63,23 +63,23 @@ a:visited{
 	font-weight:600;
 	font-size:1.1em;
 	color:#fff;
-}  
+}
 .details h3 a:hover{
 	font-weight:600;
 	font-size:1.1em;
 	color:#fff;
-}  
+}
 .details h3 a:visited{
 	font-weight:600;
 	font-size:1.1em;
 	color:#fff;
-}  
+}
 
 .details h3{
 	font-weight:600;
 	font-size:1.1em;
 	color:#fff;
-}  
+}
 
 .details p{
 	color:#d9d4d4;
@@ -100,7 +100,7 @@ address span{
 	line-height:1.5em;
 }
 /*----*/
-.main{  
+.main{
   padding:2em 0;
 }
 .content{
@@ -108,7 +108,7 @@ address span{
     left:50%;
 }
 .glyphicon {
-  top:1px;  
+  top:1px;
 }
 .glyphicon-file:before,.glyphicon-print:before,.glyphicon-envelope:before,.glyphicon-picture:before{
   margin-right: 9px;
@@ -134,7 +134,7 @@ address span{
 	font-weight:600;
 	font-size:1.3em;
 	margin-bottom:6px;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Verdana', serif;
 }
 
 .section_details h4 a:link {
@@ -174,7 +174,7 @@ address span{
 	font-weight:600;
 	font-size:1.0em;
 	margin-bottom:6px;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Verdana', serif;
 }
 .section_details h5 span a{
   color: #a41c2f;
@@ -190,7 +190,7 @@ address span{
 	color:#101010;
 	font-weight:400;
 	line-height:1.2em;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Verdana', serif;
     margin-bottom:1em;
 }
 .section  h3{
@@ -204,12 +204,12 @@ address span{
 	font-weight:600;
 	font-size:1.3em;
 	margin-bottom:6px;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Verdana', serif;
 }
 .education_details ul {
 	padding-left:0em;
     list-style-type:none;
-    line-height:1.05; 
+    line-height:1.05;
     padding-bottom:1em;
 }
 
