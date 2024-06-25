@@ -1,0 +1,49 @@
+.cornellgrey {
+ border-bottom: solid 2px #828282;
+ padding-bottom: 5px;
+}
+.cornell {
+ border-bottom: solid 2px #B31B1B;
+ padding-bottom: 5px;
+}
+.inline-block {
+    display: inline-block;
+}
+.news li div {
+    width: 90px;
+    font-weight: bold;
+    display: inline-block;
+}
+.mobile-only {display: none; float: right;}
+[data-type="code"] {
+	display: none;
+}
+.desktop-only
+@media only screen and (min-width: 960px)  {
+.container {
+    width: 960px;
+}
+}
+@media only screen and (max-width: 400px)  {
+    .publication-item {
+        width: 100%;
+    }
+    .mobile-xs {
+        padding-top: 100px !important;
+    }
+    .mobile-only {display: inline !important; float: right;}
+    .desktop-only {display: none;}
+    }
+
+    @media only screen and (max-width: 600px)  {
+        .publication-item {
+            width: 100%;
+        }
+        .mobile-xs {
+            padding-top: 100px !important;
+        }
+        .mobile-only {display: inline !important; float: right;}
+        .desktop-only {display: none;}
+        }
+
+

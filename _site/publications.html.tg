@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="assets/style.css" rel="stylesheet"  />
+        <link rel="shortcut icon" type="image/png" href="assets/ug.png" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container" style="margin:auto">
+            <a class="navbar-brand" href="index.html">Udit Gupta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-5 mb-md-0 mx-auto">
+                    <li class="nav-item p-3">
+                        <a class="nav-link active" href="publications.html">Publications</a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a class="nav-link" href="teaching.html">Teaching</a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a class="nav-link" href="students.html">Students</a>
+                    </li>
+                </ul>
+            </div>
+            <img style="float: right;margin: 12px 0;" src="assets/images/cornell_logo_text.png"  width="200px"/>
+
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="pt-5 mt-5 rounded mobile-xs">
+          <h1 class="cornell">Publications</h1>
+        <p class="leads">For a complete and up to date list of publications please visit <a href="https://scholar.google.com/citations?user=f_q71XMAAAAJ&hl=en&oi=ao">Google Scholar. </a>        </p>
+        <ul style="list-style: none;padding-left: 0px;">
+
+            <hr/>
+			<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+  <input type="radio" class="btn-check" name="btnradio" onclick="changePublicationLabel('tag')" id="btnradio1" autocomplete="off" checked>
+  <label class="btn btn-outline-primary" for="btnradio1">TAG</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio2"  onclick="changePublicationLabel('code')"  autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio2">CODE</label>
+
+</div><br/>
+          <li class="row">
+            <div class="col-md-1 col-sm-2 col-xs-4 publication-item">
+                <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#9FAD9F; font-size:12px;"><span data-type="tag">ASPLOS</span><span data-type="code">ASPLOS</span></span></h5>
+                <h2 class="text-secondary mobile-only">2023</h2>
+            </div>
+            <div class="col-md-9 col-sm-8 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;"> A Holistic Approach for Designing Carbon Aware Datacenters</p>
+                <p>Bilge Acun, Benjamin Lee, Kiwan Maeng, Manoj Chakkaravarthy, <b>Udit Gupta</b>, David Brooks, Carole-Jean Wu
+  <br/>
+  To appear in International Conference on Architectural Support for Programming Languages and Operating Systems <br/>
+                <a href="https://ugupta.com/files/Gupta_ISCA2022_ACT.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a>
+                <a href="https://ugupta.com/files/ACT_ISCA2022.pdf"><i class="fa-brands fa-slideshare"></i>[Slides]</a>
+                <a href="https://github.com/facebookresearch/ACT"><i class="fa-brands fa-github"></i>[Github]</a></p>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-4 publication-item">
+                <h2 class="text-secondary desktop-only">2023</h2>
+            </div>
+
+            <hr/>
+          <li class="row">
+            <div class="col-md-1 col-sm-2 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#073949; font-size:14px;">ISCA</span></h5>
+                <h2 class="text-secondary mobile-only">2022</h2>
+            </div>
+            <div class="col-md-9 col-sm-8 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">ACT: Designing Sustainable Computer Systems With An Architectural Carbon Modeling Tool</p>
+                <p><strong>Udit Gupta</strong> , Mariam Elgamal, Gage Hills, Gu-Yeon Wei, Hsien-Hsin S. Lee, David Brooks, Carole-Jean Wu <br/>
+                International Symposium on Computer Architecture <br/>
+                <a href="https://ugupta.com/files/Gupta_ISCA2022_ACT.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a>
+                <a href="https://ugupta.com/files/ACT_ISCA2022.pdf"><i class="fa-brands fa-slideshare"></i>[Slides]</a>
+                <a href="https://github.com/facebookresearch/ACT"><i class="fa-brands fa-github"></i>[Github]</a></p>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-4 publication-item">
+                <h2 class="text-secondary desktop-only">2022</h2>
+            </div>
+
+
+</li>
+
+<li class="row">
+    <div class="col-md-1 col-sm-2 col-xs-4 publication-item" >
+        <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#A2998B; font-size:14px;">MLSys</span></h5>
+    </div>
+    <div class="col-md-9 col-sm-8 col-xs-12 ">
+<p style="text-decoration: underline;margin-bottom: 0px;">Sustainable AI: Environmental Implications, Challenges and Opportunities</p>
+<p>Carole-Jean Wu, Ramya Raghavendra, <b>Udit Gupta</b>, Bilge Acun, Newsha Ardalani, Kiwan Maeng, et. al. <br/>
+Machine Learning and Systems <br/>
+<a href="https://arxiv.org/abs/2111.00364"> [ArXiv]</a></p>
+</div>
+<div class="col-md-2 col-sm-2 col-xs-4 publication-item">
+    <h1 class="text-secondary"><b></b></h1>
+</div>
+</li>
+
+<li class="row">
+    <div class="col-md-1 col-sm-2 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#073949; font-size:14px;">HPCA</span></h5>
+    </div>
+    <div class="col-md-9 col-sm-8 col-xs-12 ">
+  <p style="text-decoration: underline;margin-bottom: 0px;">Hercules: Heterogeneity-Aware Inference Serving for At-scale Personalized Recommendation</p>
+  <p>Liu Ke, <b>Udit Gupta</b>, Mark Hempstead, Carole-Jean Wu, Hsien-Hsin Sean Lee, Xuan Zhang <br/>
+  IEEE International Symposium on High-Performance Computer Architecture </p>
+</div>
+</li>
+
+<hr/>
+
+
+<li class="row">
+    <div class="col-md-1 col-sm-2 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#073949; font-size:14px;">MICRO</span></h5>
+                <h2 class="text-secondary mobile-only">2021</h2>
+    </div>
+    <div class="col-md-9 col-sm-8 col-xs-12 ">
+  <p style="text-decoration: underline;margin-bottom: 0px;">RecPipe: Co-designing Models and Hardware to Jointly Optimize Recommendation Quality and Performance</p>
+  <p><b>Udit Gupta</b>, Samuel Hsia, Jeff Zhang, Mark Wilkening, Javin Pombra, Hsien-Hsin S. Lee, Gu-Yeon Wei, Carole-Jean Wu, David Brooks <br/>
+IEEE/ACM International Symposium on Microarchitecture <br/>
+<a href="https://arxiv.org/abs/2105.08820">[ArXiv]</a>
+                  <a href="https://github.com/harvard-acc/RecPipe"><i class="fa-brands fa-github"></i>[Github]</a>
+                  <a href="https://drive.google.com/file/d/1R0WbKht6k0CFiHLtflsPUCRwIhUzewWw/view?usp=sharing"><i class="fa-solid fa-microphone"></i>[MICRO 2021 Talk]</a>
+                  <a href="https://drive.google.com/file/d/1XO6Uq_ReWK1sNo27EhI91DO1G-5iMJZ0/view?usp=sharing"><i class="fa-solid fa-microphone"></i>[MICRO 2021 Lightning Talk]</a>
+                  <a href="files/RecPipe_MICRO2021.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a>
+                  <br>
+                  <a href="https://doi.org/10.5281/zenodo.5146294"><i class="fa-sharp fa-solid fa-file-code"></i>[Artifact]</a> (available, functional, and reproducible)</p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-4 publication-item">
+                    <h2 class="text-secondary desktop-only">2021</h2>
+                </div>
+</li>
+
+<li class="row">
+    <div class="col-md-1 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#D47500; font-size:14px;">WCAE</span></h5>
+        <h1 class="text-secondary mobile-only"><b></b></h1>
+    </div>
+    <div class="col-md-9 col-xs-12 ">
+  <p style="text-decoration: underline;margin-bottom: 0px;">Mentoring Opportunities in Computer Architecture: Analyzing the Past to Develop the Future</p>
+  <p>Elba Garza, Gururaj Saileshwar, <b>Udit Gupta</b>, Tianyi Liu, Abdulrahman Mahmoud, Saugata Ghose, Joel Emer<br/>
+Workshop on Computer Architecture Education (WCAE) co-located with ISCA<br/>
+<a href="https://ma3mool.github.io/files/21-WCAE-Mentoring.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a>
+  </p>
+                </div>
+                <div class="col-md-2 col-xs-4 publication-item">
+                    <h1 class="text-secondary desktop-only"><b></b></h1>
+                </div>
+</li>
+
+<li class="row">
+    <div class="col-md-1 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#073949; font-size:14px;">HPCA</span></h5>
+        <h1 class="text-secondary mobile-only"><b></b></h1>
+    </div>
+    <div class="col-md-9 col-xs-12 ">
+  <p style="text-decoration: underline;margin-bottom: 0px;">RecSSD: near data processing for solid state drive based recommendation inference</p>
+  <p>Mark Wilkening, <b>Udit Gupta</b>, Samuel Hsia, Caroline Trippel, Carole-Jean Wu, David Brooks, Gu-Yeon Wei<br/>
+IEEE International Sympsoium on High Performance Computer Architecture<br/>
+<a href="https://arxiv.org/pdf/2102.00075.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a>
+  </p>
+                </div>
+                <div class="col-md-2 col-xs-4 publication-item">
+                    <h1 class="text-secondary desktop-only"><b></b></h1>
+                </div>
+</li>
+
+<li class="row">
+    <div class="col-md-1 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#073949; font-size:14px;">HPCA</span></h5>
+        <h1 class="text-secondary mobile-only"><b></b></h1>
+    </div>
+    <div class="col-md-9 col-xs-12 ">
+  <p style="text-decoration: underline;margin-bottom: 0px;">Chasing Carbon: The Elusive Environmental Footprint of Computing</p>
+  <p><b>Udit Gupta</b>, Young Geun Kim, Silvia Lee, Jordan Tse, Hsien-Hsin S. Lee, Gu-Yeon Wei, David Brooks, Carole-Jean Wu<br/>
+IEEE International Sympsoium on High Performance Computer Architecture<br/>
+<a href="https://arxiv.org/pdf/2011.02839.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a> <br/>
+                <b><i style="color:#B31B1B"> <i class="fa-solid fa-ribbon"></i> IEEE MICRO Top Picks Award!</i></b>
+  </p>
+                </div>
+                <div class="col-md-2 col-xs-4 publication-item">
+                    <h1 class="text-secondary desktop-only"><b></b></h1>
+                </div>
+</li>
+
+            <hr/>
+
+          <li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+                <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#673147; font-size:14px;">IISWC</span></h5>
+                <h2 class="text-secondary mobile-only">2020</h2>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">Cross-stack workload characterization of deep recommendation systems</p>
+                <p>Samuel Hsia, <strong>Udit Gupta</strong> , Mark Wilkening, Carole-Jean Wu, Gu-Yeon Wei, David Brooks<br/>
+                International Sympsoium on Workload Characterization<br/>
+                <a href="https://arxiv.org/pdf/2010.05037.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a>
+            </div>
+            <div class="col-md-2 col-xs-4 publication-item">
+                <h2 class="text-secondary desktop-only">2020</h2>
+            </div>
+</li>
+
+
+          <li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#073949; font-size:14px;">ISCA</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">DeepRecSys: A System for Optimizing End-to-End At-scale Neural Recommendation Inference</p>
+                <p><strong>Udit Gupta</strong>, Samuel Hsia, Vikram Saraph, Xiaodong Wang, Brandon Reagen, Gu-Yeon Wei, Hsien-Hsin S. Lee, David Brooks, Carole-Jean Wu<br/>
+                International Sympsoium on Computer Architecture<br/>
+                <a href="https://arxiv.org/pdf/2001.02772.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a>
+            </div>
+</li>
+
+<li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#073949; font-size:14px;">ISCA</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing</p>
+                <p>Liu Ke, <strong>Udit Gupta</strong>, Benjamin Youngjae Cho, David Brooks, et. al. <br/>
+                International Sympsoium on Computer Architecture<br/>
+                <a href="https://arxiv.org/pdf/1912.12953.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a>
+            </div>
+</li>
+
+<li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+        <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#A2998B; font-size:14px;">MLSys</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">MLPerf Training Benchmark</p>
+                <p>Peter Mattson, Christine Cheng, Gregory Diamos, Cody Coleman, Paulius Mickievicius, David Patterson, et. al. <br/>
+                Proceedings of Machine Learning and Systems<br/>
+                <a href="https://proceedings.mlsys.org/paper/2020/file/02522a2b2726fb0a03bb19f2d8d9524d-Paper.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a>
+            </div>
+</li>
+
+<li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+        <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#A2998B; font-size:14px;">MLSys</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">The Architectural Implications of Facebook's DNN-bsed Personalized Recommendation Models</p>
+                <p>Udit Gupta, Carole-Jean Wu, Xiaodong Wang, Maxim Naumov, Brandon Reagen, David Brooks, et. al. <br/>
+                International Symposium on High Performance Computer Architecture<br/>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=f_q71XMAAAAJ&sortby=pubdate&citation_for_view=f_q71XMAAAAJ:YsMSGLbcyi4C"><i class="fa-solid fa-file-pdf"></i>[PDF]</a> <br/>
+                <b><i style="color:#B31B1B"> <i class="fa-solid fa-ribbon"></i> IEEE MICRO Top Picks Honorable Mention!</i></b>
+            </div>
+</li>
+
+            <hr/>
+
+          <li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#D47500; font-size:12px;">ProTools</span></h5>
+                <h2 class="text-secondary mobile-only">2019</h2>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">ChampVis: Comparative Hierarchical Analysis of Microarchitectural Performance</p>
+                <p>Lillian Pentecost, <strong>Udit Gupta</strong>, Elisa Ngan, Johanna Beyer, Gu-Yeon Wei, David Brooks<br/>
+                IEEE/ACM International Workshop on Programming and Performance Visualization Tools (ProTools) co-located with Super Computing <br/>
+            </div>
+            <div class="col-md-2 col-xs-4 publication-item">
+              <h2 class="text-secondary desktop-only">2019</h2>
+            </div>
+</li>
+
+
+          <li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#073949; font-size:14px;">MICRO</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">MaxNVM: Maximizing DNN Storage Density and Inference Efficiency with Sparse Encoding and Error Mitigation</p>
+                <p>Lillian Pentecost, Marco Donato, Brandon Reagen, <strong>Udit Gupta</strong>, Siming Ma, Gu-Yeon Wei, David Brooks<br/>
+                IEEE/ACM International Symposium on Microarchitecture<br/>
+            </div>
+</li>
+
+
+          <li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+                <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#9FAD9F; font-size:14px;">PACT</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">MASR: A Modular Accelerator for Sparse RNNs</p>
+                <p><b>Udit Gupta</b>, Brandon Reagen, Lillian Pentecost, Marco Donato, Thierry Tambe, Alexander Rush, Gu-Yeon Wei, David Brooks,<br/>
+                International Conference on Parallel Architecture and Compilation Techniques<br/>
+                <a href="https://ugupta.com/files/masr_pact.pdf"><i class="fa-solid fa-file-pdf"></i>[PDF]</a> <br/>
+                <b><i style="color:#B31B1B"> <i class="fa-solid fa-ribbon"></i> Best paper nominee!</i></b>
+            </div>
+</li>
+
+<li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+                <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#8B8000"; font-size:14px;">VLSI</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">A 16nm 25mm2 SoC with 54.5x Flexibility-Efficiency Range from Dual-Core ARM Cortex-A53 to eFPGA and Cache-Coherent Accelerators</p>
+                <p>Paul Whatmough, Sae Kyu Lee, Marco Donato, Thomas Hsueh, Sam Xi, <b>Udit Gupta</b>, Lillian Pentecost, Glenn Ko, David Brooks, Gu-Yeon Wei<br/>
+                Symposium on VLSI Circuits
+            </div>
+</li>
+
+<li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+      <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#D47500; font-size:12px;">arXiv</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">Deep Learning Recommendation Model for Personalization and Recommendation Systems</p>
+                <p>Maxim Naumov, Dheevatsa Mudigere, Michael Whi, Jianyu Huang, Narayanan Sundaraman, Jongoo Park, Xiaodong Wang, <b>Udit Gupta</b>, Carole-Jean Wu et. al. <br/>
+                arXiv
+            </div>
+</li>
+
+            <hr/>
+
+          <li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+        <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#A2998B; font-size:14px;">ICML</span></h5>
+                <h2 class="text-secondary mobile-only">2018</h2>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">Weightless: Lossy Weight Encoding for Deep Neural Network Compression</p>
+                <p>Brandon Reagen, <strong>Udit Gupta</strong>, Bob Adolf, Michael Mitzenmacher, Alexander Rush, Gu-Yeon Wei, David Brooks<br/>
+                International Conference on Machine Learning<br/>
+            </div>
+            <div class="col-md-2 col-xs-4 publication-item">
+                <h2 class="text-secondary desktop-only">2018</h2>
+            </div>
+</li>
+
+<li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+          <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#4B7B2B; font-size:14px;">DAC</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">Ares: A Framework for Quantifying the Resilience of Deep Neural Networks</p>
+                <p>Brandon Reagen, <b>Udit Gupta</b>, Lillian Pentecost, Paul Whatmough, Sae Kyu Lee, Niam Mullholland, David Brooks, Gu-Yeon Wei <br/>
+                Design Automation Conference<br/>
+                <b><i style="color:#B31B1B"> <i class="fa-solid fa-ribbon"></i> Best paper nominee!</i></b>
+
+            </div>
+</li>
+
+<li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+          <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#4B7B2B; font-size:14px;">DAC</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">On-chip Deep Neural Network Storage with Multi-level eNVM</p>
+                <p>Marco Donato, Brandon Reagen, Lillian Pentecost, <b>Udit Gupta</b>, David Brooks, Gu-Yeon Wei<br/>
+                Design Automation Conference
+
+            </div>
+</li>
+
+<li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+        <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#4B7B2B; font-size:14px;">FPGA</span></h5>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">Rosetta: A Realistic High-level Synthesis Benchmark Suite for Software Programmable FPGAs</p>
+                <p>Yuan Zhou, <b>Udit Gupta</b>, Steve Dai, Ritchie Zhao, Nitish Srivastava, Hanchen Jin, Joseph Featherston, Yi-Hsiang Lai, Gai Liu, Gustavo Angarita Velasquez, Wenping Wang, Zhiru Zhang <br/>
+                International Symposium on Field Programmable Gate Arrays
+
+            </div>
+</li>
+
+<hr/>
+
+          <li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+        <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#4B7B2B; font-size:14px;">FPGA</span></h5>
+                <h2 class="text-secondary mobile-only">2017</h2>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">Dynamic Hazard Resolution of Pipelining Irregular Loops in High-level Synthesis</p>
+                <p>Steve Dai, Ritchie Zhao, Shreesha Srinath, <strong>Udit Gupta</strong>, Chris Batten, Zhiru Zhang<br/>
+                International Symposium on Field Programmable Gate Arrays
+            </div>
+            <div class="col-md-2 col-xs-4 publication-item">
+                <h2 class="text-secondary desktop-only">2017</h2>
+            </div>
+</li>
+
+<hr/>
+
+
+          <li class="row">
+            <div class="col-md-1 col-xs-4 publication-item">
+                <h5 style="display:inline-block;"><span class="badge badge-primary" style="background-color:#4B7B2B; font-size:14px;">FPGA</span></h5>
+                <h2 class="text-secondary mobile-only">2015</h2>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">Mapping-aware Constrained Scheduling for LUT-based FPGAs</p>
+                <p>Mingxing Tan, Steve Dai, <strong>Udit Gupta</strong>, Zhiru Zhang<br/>
+                International Symposium on Field Programmable Gate Arrays
+            </div>
+            <div class="col-md-2 col-xs-4 publication-item">
+                <h2 class="text-secondary desktop-only">2015</h2>
+            </div>
+</li>
+
+        </ul>
+
+          <h1 class="cornell">Patents</h1>
+        <ul style="list-style: none;padding-left:0">
+
+          <li class="row">
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">Computer memory module processing device with cache storage</p>
+                <p>Liu Ke, Silvia Zhang, <strong>Udit Gupta</strong> , Carole-Jean Wu, Mark Hempstead, Brandon Reagen, Hsien-Hsin S. Lee<br/>
+            </div>
+</li>
+        </ul>
+
+          <h1 class="cornell">Theses and Books</h1>
+        <ul style="list-style: none;padding-left:0">
+
+          <li class="row">
+            <div class="col-md-9 col-xs-12">
+                <p style="text-decoration: underline;margin-bottom: 0px;">Enabling High Performance, Efficient, and Sustainable Deep Learning Systems At Scale</p>
+                <p>Udit Gupta<br/>
+                PhD Dissertation, Computer Science, Harvard University, 2022 <br/>
+                <a href="https://dash.harvard.edu/handle/1/37373710"><i class="fa-solid fa-file-pdf"></i>[PDF]</a>
+            </div>
+</li>
+        </ul>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+	<script type="text/Javascript">
+		function changePublicationLabel(type) {
+			document.querySelectorAll('[data-type="'+type+'"]').forEach(element => {
+				element.style.display='inline';
+			});
+			document.querySelectorAll('[data-type="'+(type=='code'?'tag':'code') +'"]').forEach(element => {
+				element.style.display='none';
+			});
+		}
+	</script>
+</body>
+
+</html>
