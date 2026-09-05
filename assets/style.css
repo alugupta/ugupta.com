@@ -47,3 +47,10 @@
         }
 
 
+
+/* Uniform, consistently sized profile photos on the Students page */
+.card-img-top.rounded-circle {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
