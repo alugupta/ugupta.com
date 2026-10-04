@@ -13,12 +13,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="assets/style.css" rel="stylesheet"  />
     <link rel="shortcut icon" type="image/png" href="assets/ug.png" />
-    <noscript>
-        <style>
-            .news.news-collapsed li.news-older { display: list-item; }
-            .news-toggle { display: none; }
-        </style>
-    </noscript>
 </head>
 
 <body style="margin:auto">
@@ -158,7 +152,7 @@
             </ul>
 
             <h2 class="cornellgrey inline-block">News</h2>
-              <ul class="news news-collapsed" id="newsList">
+              <ul class="news">
                 <li><div>Oct. 2026</div> Received gift from Meta ($20K) towards <i>Enabling AI Native Technology Transfer for Silicon and Systems Research</i></li>
                 <li><div>Oct. 2026</div> Gave a talk on <i>AI&rsquo;s Energy Problem Is a Systems Problem: Characterization, Serving, and the Hardware Life Cycle</i> and spoke on the <i>Environmental Impacts of AI</i> panel at the <a href="https://communityaisummit.org/">Community-Centered AI Infrastructure Summit</a> at Carnegie Mellon University</li>
                 <li><div>Sep. 2026</div> 👋 Welcome Jared Fernandez, joining our lab as a post-doc!</li>
@@ -178,25 +172,32 @@
                 <li><div>Jun. 2025</div> 📄 Two papers, Carbon Clarity and EpiCarbon, accepted to ICCAD 2025! Congratulations to Xuesi Chen, Farbin Fayza, and all co-authors!</li>
                 <li><div>Nov. 2024</div> Received Google's Academic Research Award (GARA) on ``Life Cycle Carbon Footprint of AI Inference'' ($100K) </li>
                 <li><div>Oct. 2024</div> 📄 Paper on energy-/carbon-aware optimization of 3D IC's published at JXCDC. Congratulations to <i> Hyung Joon Boon </i> </li>
-                <li class="news-older"><div>Sep. 2024</div> 📄 Paper on architectural evaluation of 3D IC's published at ISLPED. Congratulations to <i> Hyung Joon Boon </i> </li>
-                <li class="news-older"><div>Aug. 2024</div> 👋 Welcome Tanmaey Gupta to our lab!</li>
-                <li class="news-older"><div>Jun. 2024</div> 📄 Three papers accepted to HotCarbon workshop! Come see our work on sustainable computing. Congratulations to <i>Leo Han, Anvita Bhagvatula, Yueying Li, Jash Kakadia, and Omer Graif! </i> </li>
-                <li class="news-older"><div>Jun. 2024</div> Served on the HotCarbon program committee. </li>
-                <li class="news-older"><div>May 2024</div>Received an NSF Expeditions grant with Harvard University, University of Pennsylvania, Ohio State, and Yale ($12M total),  for <a href="https://carbonconnect.eco/"><i> Carbon Connect: An Ecosystem for Sustianable Computing </i></a> </li>
-                <li class="news-older"><div>Apr. 2024</div>Attended and scribed at the <a href="https://edas.info/web/nsf-wscs24/index.html">NSF Workshop for Sustainable Computing for Sustainability</a></li>
-                <li class="news-older"><div>Mar. 2024</div>Served on the ISCA 2024 program committee </li>
-                <li class="news-older"><div>Feb. 2024</div>Launched the second iteration of the <a href="https://mlcommons.org/about-us/programs/">ML Sys Rising Stars workshop 2024!</a></li>
-                <li class="news-older"><div>Nov. 2023</div>Received the IEEE MICRO Outstanding Dissertation Award Honorable mention</li>
-                <li class="news-older"><div>Oct. 2023</div>Received an NSF grant ($2M) with Geogia Tech and Harvard Unviersity for <i>Life-time aware design for sustainable edge devices</i> <i></i></li>
+              </ul>
+              <details class="news-earlier">
+                <summary>
+                  <span class="news-earlier-show">Show earlier news</span>
+                  <span class="news-earlier-hide">Hide earlier news</span>
+                </summary>
+              <ul class="news">
+                <li><div>Sep. 2024</div> 📄 Paper on architectural evaluation of 3D IC's published at ISLPED. Congratulations to <i> Hyung Joon Boon </i> </li>
+                <li><div>Aug. 2024</div> 👋 Welcome Tanmaey Gupta to our lab!</li>
+                <li><div>Jun. 2024</div> 📄 Three papers accepted to HotCarbon workshop! Come see our work on sustainable computing. Congratulations to <i>Leo Han, Anvita Bhagvatula, Yueying Li, Jash Kakadia, and Omer Graif! </i> </li>
+                <li><div>Jun. 2024</div> Served on the HotCarbon program committee. </li>
+                <li><div>May 2024</div>Received an NSF Expeditions grant with Harvard University, University of Pennsylvania, Ohio State, and Yale ($12M total),  for <a href="https://carbonconnect.eco/"><i> Carbon Connect: An Ecosystem for Sustianable Computing </i></a> </li>
+                <li><div>Apr. 2024</div>Attended and scribed at the <a href="https://edas.info/web/nsf-wscs24/index.html">NSF Workshop for Sustainable Computing for Sustainability</a></li>
+                <li><div>Mar. 2024</div>Served on the ISCA 2024 program committee </li>
+                <li><div>Feb. 2024</div>Launched the second iteration of the <a href="https://mlcommons.org/about-us/programs/">ML Sys Rising Stars workshop 2024!</a></li>
+                <li><div>Nov. 2023</div>Received the IEEE MICRO Outstanding Dissertation Award Honorable mention</li>
+                <li><div>Oct. 2023</div>Received an NSF grant ($2M) with Geogia Tech and Harvard Unviersity for <i>Life-time aware design for sustainable edge devices</i> <i></i></li>
 
-                <li class="news-older"><div>Sept. 2023</div>Received gift from Google ($30K) towards investigating <i>Understanding and Mitigating the Environmental Footprint of AI At Scale</i></li>
-                <li class="news-older"><div>Sept. 2023</div>Received our first NSF grant ($300K) to develop, <i>Cloud Infrastructures for Designing Sustainable Electronics!</i></li>
-                <li class="news-older"><div>Aug. 2023</div>👋 Leo Han, Zhanqiu (Summer) Hu, and Michael Shen join the lab as first year PhD students!</li>
-                <li class="news-older"><div>Aug. 2023</div>Hosted the inaugural <a href="https://sites.google.com/g.harvard.edu/ml-systems-rising-stars-2023">ML and Systems Rising Stars workshop</a>, sponored by MLCommons and Google</li>
-                <li class="news-older"><div>Jul. 2023</div>Started new role as an Assistant Professor at Cornell Tech!</li>
-                <li class="news-older"><div>Jun. 2023</div>Received the SIGARCH/TCCA Outstanding Dissertation Award Honorable mention</li>
-                <li class="news-older"><div>Mar. 2023</div>Launched the new <a href="https://sites.google.com/g.harvard.edu/ml-systems-rising-stars-2023">ML and Systems Rising Stars program!</a></li>
-                <li class="news-older"><div>Feb. 2023</div>Co-organized the NSF NetZero Carbon workshop at HPCA 2023.</li>
+                <li><div>Sept. 2023</div>Received gift from Google ($30K) towards investigating <i>Understanding and Mitigating the Environmental Footprint of AI At Scale</i></li>
+                <li><div>Sept. 2023</div>Received our first NSF grant ($300K) to develop, <i>Cloud Infrastructures for Designing Sustainable Electronics!</i></li>
+                <li><div>Aug. 2023</div>👋 Leo Han, Zhanqiu (Summer) Hu, and Michael Shen join the lab as first year PhD students!</li>
+                <li><div>Aug. 2023</div>Hosted the inaugural <a href="https://sites.google.com/g.harvard.edu/ml-systems-rising-stars-2023">ML and Systems Rising Stars workshop</a>, sponored by MLCommons and Google</li>
+                <li><div>Jul. 2023</div>Started new role as an Assistant Professor at Cornell Tech!</li>
+                <li><div>Jun. 2023</div>Received the SIGARCH/TCCA Outstanding Dissertation Award Honorable mention</li>
+                <li><div>Mar. 2023</div>Launched the new <a href="https://sites.google.com/g.harvard.edu/ml-systems-rising-stars-2023">ML and Systems Rising Stars program!</a></li>
+                <li><div>Feb. 2023</div>Co-organized the NSF NetZero Carbon workshop at HPCA 2023.</li>
                 <!--
                 <li><div>Jan. 2023</div>ACT: Architectural Carbon Modeling Tools is accepted as IEEE MICRO Top Picks 2023!</li>
                 <li><div>Jan. 2023</div>Our paper, MP-Rec: HW/SW Co-Design to Enable Multi-Path Recommendation, accepted to ASPLOS 2023!</li>
@@ -228,9 +229,8 @@
                 -->
 
 
-            </ul>
-            <button type="button" class="news-toggle" id="newsToggle"
-              aria-expanded="false" aria-controls="newsList">Show earlier news</button>
+              </ul>
+              </details>
         </section>
     </main>
 
@@ -241,22 +241,6 @@
         integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
         async></script>
 
-    <script>
-        (function () {
-            var list = document.getElementById("newsList");
-            var btn = document.getElementById("newsToggle");
-            if (!list || !btn) return;
-            var count = list.querySelectorAll("li.news-older").length;
-            var showLabel = "Show " + count + " earlier news items";
-            var hideLabel = "Hide earlier news";
-            btn.textContent = showLabel;
-            btn.addEventListener("click", function () {
-                var collapsed = list.classList.toggle("news-collapsed");
-                btn.textContent = collapsed ? showLabel : hideLabel;
-                btn.setAttribute("aria-expanded", String(!collapsed));
-            });
-        })();
-    </script>
 </body>
 
 </html>
